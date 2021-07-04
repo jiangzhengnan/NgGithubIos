@@ -1,5 +1,11 @@
 # NgGithubIos
 🍎 基于Ios端，使用Oc编写的Github个人版本<br />
+基于MVC模式进行开发
+第三方库:
+* AFNetworking
+* SDWebImage
+* MMDrawerController
+* Masonry
 
 UI Design<br />
 <a href="https://mobbin.design/apps/github">https://mobbin.design/apps/github</a><br />
