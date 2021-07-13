@@ -34,11 +34,6 @@
   self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
   [self.view addSubview:self.tableView];
 
-  //  //添加跳转方法
-  //  UITapGestureRecognizer *tabGesture =
-  //      [[UITapGestureRecognizer alloc] initWithTarget:self
-  //                                              action:@selector(getHomeData)];
-  //  [showTv addGestureRecognizer:tabGesture];
 }
 
 - (void)refreshView {

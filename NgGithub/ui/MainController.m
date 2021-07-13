@@ -81,7 +81,7 @@
 
   _controllers =
       [NSArray arrayWithObjects:_homeController, _userController,
-                                _findController, _msgController, nil];
+                                _msgController, nil];
   // 将四个页面的 UIViewController 加入到 UITabBarController 之中
   [tabbarController setViewControllers:_controllers];
 

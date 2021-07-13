@@ -31,6 +31,9 @@
 		C94DE37526746F400037B34C /* DemoConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DE37426746F400037B34C /* DemoConfigData.m */; };
 		C94DE37826746F640037B34C /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DE37726746F640037B34C /* UserDataManager.m */; };
 		C94DE38E26759F4E0037B34C /* TextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DE38C26759F4E0037B34C /* TextUtils.m */; };
+		C996584C269DCFB2006ECA93 /* MsgDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C996584B269DCFB2006ECA93 /* MsgDataLoader.m */; };
+		C9965850269DCFD6006ECA93 /* MsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C996584F269DCFD6006ECA93 /* MsgModel.m */; };
+		C9965853269DD054006ECA93 /* MsgItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9965852269DD054006ECA93 /* MsgItemView.m */; };
 		C9981C64267F317D00A0AF41 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C63267F317D00A0AF41 /* ViewUtils.m */; };
 		C9981C692680E42F00A0AF41 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C682680E42F00A0AF41 /* UserInfoView.m */; };
 		C9981C6D268A08EA00A0AF41 /* MyUILable.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C6C268A08EA00A0AF41 /* MyUILable.m */; };
@@ -45,6 +48,7 @@
 		C9981C9C26902C4B00A0AF41 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C9B26902C4B00A0AF41 /* LeftViewController.m */; };
 		C9981CA02690709A00A0AF41 /* RepoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C9F2690709A00A0AF41 /* RepoItemView.m */; };
 		C9981CA426919A7E00A0AF41 /* WebDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981CA326919A7E00A0AF41 /* WebDetailView.m */; };
+		C9981CA62691A17800A0AF41 /* local_config.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9981CA52691A17800A0AF41 /* local_config.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +96,12 @@
 		C94DE37726746F640037B34C /* UserDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataManager.m; sourceTree = "<group>"; };
 		C94DE38C26759F4E0037B34C /* TextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextUtils.m; sourceTree = "<group>"; };
 		C94DE38D26759F4E0037B34C /* TextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextUtils.h; sourceTree = "<group>"; };
+		C996584A269DCFB2006ECA93 /* MsgDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgDataLoader.h; sourceTree = "<group>"; };
+		C996584B269DCFB2006ECA93 /* MsgDataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgDataLoader.m; sourceTree = "<group>"; };
+		C996584E269DCFD6006ECA93 /* MsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgModel.h; sourceTree = "<group>"; };
+		C996584F269DCFD6006ECA93 /* MsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgModel.m; sourceTree = "<group>"; };
+		C9965851269DD054006ECA93 /* MsgItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgItemView.h; sourceTree = "<group>"; };
+		C9965852269DD054006ECA93 /* MsgItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgItemView.m; sourceTree = "<group>"; };
 		C9981C62267F317D00A0AF41 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		C9981C63267F317D00A0AF41 /* ViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		C9981C672680E42F00A0AF41 /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 		C9981C9F2690709A00A0AF41 /* RepoItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoItemView.m; sourceTree = "<group>"; };
 		C9981CA226919A7E00A0AF41 /* WebDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebDetailView.h; sourceTree = "<group>"; };
 		C9981CA326919A7E00A0AF41 /* WebDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebDetailView.m; sourceTree = "<group>"; };
+		C9981CA52691A17800A0AF41 /* local_config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local_config.txt; sourceTree = "<group>"; };
 		E2ABAF84A6F99DC6442202A9 /* libPods-NgGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63BB8877B59A04F9942F637 /* Pods-NgGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgGithub.debug.xcconfig"; path = "Target Support Files/Pods-NgGithub/Pods-NgGithub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -240,6 +251,7 @@
 		C9060CC72662895800812DD3 /* NgGithub */ = {
 			isa = PBXGroup;
 			children = (
+				C9981CA52691A17800A0AF41 /* local_config.txt */,
 				7DE0E739268D9B7500132261 /* test */,
 				7D4D4CE226775C6C0072BA8C /* net */,
 				C94DE38B26759F400037B34C /* utils */,
@@ -341,10 +353,40 @@
 		C94DE39C267615210037B34C /* msg */ = {
 			isa = PBXGroup;
 			children = (
+				C9965849269DCF77006ECA93 /* data */,
+				C9965848269DCF73006ECA93 /* view */,
 				7D4D4CD4267626890072BA8C /* MsgController.h */,
 				7D4D4CD5267626890072BA8C /* MsgController.m */,
 			);
 			path = msg;
+			sourceTree = "<group>";
+		};
+		C9965848269DCF73006ECA93 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C9965851269DD054006ECA93 /* MsgItemView.h */,
+				C9965852269DD054006ECA93 /* MsgItemView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C9965849269DCF77006ECA93 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C996584D269DCFC9006ECA93 /* bean */,
+				C996584A269DCFB2006ECA93 /* MsgDataLoader.h */,
+				C996584B269DCFB2006ECA93 /* MsgDataLoader.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C996584D269DCFC9006ECA93 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				C996584E269DCFD6006ECA93 /* MsgModel.h */,
+				C996584F269DCFD6006ECA93 /* MsgModel.m */,
+			);
+			path = bean;
 			sourceTree = "<group>";
 		};
 		C9981C652680E40300A0AF41 /* center */ = {
@@ -498,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9060CE526629B0200812DD3 /* icon.bundle in Resources */,
+				C9981CA62691A17800A0AF41 /* local_config.txt in Resources */,
 				C9060CD82662895900812DD3 /* LaunchScreen.storyboard in Resources */,
 				C9060CD52662895900812DD3 /* Assets.xcassets in Resources */,
 				C9060CD32662895800812DD3 /* Main.storyboard in Resources */,
@@ -560,6 +603,8 @@
 				C9981C75268CB6DA00A0AF41 /* RepoModel.m in Sources */,
 				7D4D4CE526775C7C0072BA8C /* SPRequest.m in Sources */,
 				C94DE37826746F640037B34C /* UserDataManager.m in Sources */,
+				C996584C269DCFB2006ECA93 /* MsgDataLoader.m in Sources */,
+				C9965850269DCFD6006ECA93 /* MsgModel.m in Sources */,
 				C94DE363266B31760037B34C /* HomeController.m in Sources */,
 				C9981C91269027A300A0AF41 /* LitterLCenterViewController.m in Sources */,
 				C9981CA426919A7E00A0AF41 /* WebDetailView.m in Sources */,
@@ -567,6 +612,7 @@
 				C9981C92269027A300A0AF41 /* LitterLShowViewController.m in Sources */,
 				C9981C90269027A300A0AF41 /* TestDrawerViewController.m in Sources */,
 				7D4D4CCD26761F5B0072BA8C /* SplashView.m in Sources */,
+				C9965853269DD054006ECA93 /* MsgItemView.m in Sources */,
 				7D4D4CD026761F820072BA8C /* MainController.m in Sources */,
 				C9060CCD2662895800812DD3 /* SceneDelegate.m in Sources */,
 			);
