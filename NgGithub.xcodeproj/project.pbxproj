@@ -34,6 +34,8 @@
 		C996584C269DCFB2006ECA93 /* MsgDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C996584B269DCFB2006ECA93 /* MsgDataLoader.m */; };
 		C9965850269DCFD6006ECA93 /* MsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C996584F269DCFD6006ECA93 /* MsgModel.m */; };
 		C9965853269DD054006ECA93 /* MsgItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9965852269DD054006ECA93 /* MsgItemView.m */; };
+		C9965857269F292A006ECA93 /* FindSearchLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9965856269F292A006ECA93 /* FindSearchLoader.m */; };
+		C996585B269F3293006ECA93 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C996585A269F3293006ECA93 /* SearchView.m */; };
 		C9981C64267F317D00A0AF41 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C63267F317D00A0AF41 /* ViewUtils.m */; };
 		C9981C692680E42F00A0AF41 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C682680E42F00A0AF41 /* UserInfoView.m */; };
 		C9981C6D268A08EA00A0AF41 /* MyUILable.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C6C268A08EA00A0AF41 /* MyUILable.m */; };
@@ -102,6 +104,10 @@
 		C996584F269DCFD6006ECA93 /* MsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgModel.m; sourceTree = "<group>"; };
 		C9965851269DD054006ECA93 /* MsgItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgItemView.h; sourceTree = "<group>"; };
 		C9965852269DD054006ECA93 /* MsgItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgItemView.m; sourceTree = "<group>"; };
+		C9965855269F292A006ECA93 /* FindSearchLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindSearchLoader.h; sourceTree = "<group>"; };
+		C9965856269F292A006ECA93 /* FindSearchLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSearchLoader.m; sourceTree = "<group>"; };
+		C9965859269F3293006ECA93 /* SearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		C996585A269F3293006ECA93 /* SearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
 		C9981C62267F317D00A0AF41 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		C9981C63267F317D00A0AF41 /* ViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		C9981C672680E42F00A0AF41 /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
@@ -344,6 +350,8 @@
 		C94DE39B267615190037B34C /* find */ = {
 			isa = PBXGroup;
 			children = (
+				C9965858269F327B006ECA93 /* view */,
+				C9965854269F2911006ECA93 /* data */,
 				7D4D4CD1267626670072BA8C /* FindController.h */,
 				7D4D4CD2267626670072BA8C /* FindController.m */,
 			);
@@ -387,6 +395,24 @@
 				C996584F269DCFD6006ECA93 /* MsgModel.m */,
 			);
 			path = bean;
+			sourceTree = "<group>";
+		};
+		C9965854269F2911006ECA93 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C9965855269F292A006ECA93 /* FindSearchLoader.h */,
+				C9965856269F292A006ECA93 /* FindSearchLoader.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C9965858269F327B006ECA93 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C9965859269F3293006ECA93 /* SearchView.h */,
+				C996585A269F3293006ECA93 /* SearchView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		C9981C652680E40300A0AF41 /* center */ = {
@@ -585,6 +611,7 @@
 				C9981C6D268A08EA00A0AF41 /* MyUILable.m in Sources */,
 				7D4D4CDD2676FCF90072BA8C /* BaseViewController.m in Sources */,
 				C9981C72268CB63A00A0AF41 /* UserCenterLoader.m in Sources */,
+				C996585B269F3293006ECA93 /* SearchView.m in Sources */,
 				C9981C9826902B1F00A0AF41 /* HomeDrawerViewController.m in Sources */,
 				7D4D4CD6267626890072BA8C /* MsgController.m in Sources */,
 				C94DE35F266B2DFF0037B34C /* HomeDataLoader.m in Sources */,
@@ -608,6 +635,7 @@
 				C94DE363266B31760037B34C /* HomeController.m in Sources */,
 				C9981C91269027A300A0AF41 /* LitterLCenterViewController.m in Sources */,
 				C9981CA426919A7E00A0AF41 /* WebDetailView.m in Sources */,
+				C9965857269F292A006ECA93 /* FindSearchLoader.m in Sources */,
 				7DE0E744268D9FBB00132261 /* TestListViewController.m in Sources */,
 				C9981C92269027A300A0AF41 /* LitterLShowViewController.m in Sources */,
 				C9981C90269027A300A0AF41 /* TestDrawerViewController.m in Sources */,
