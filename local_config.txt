@@ -1,0 +1,1 @@
+{ "CLIENT_ID" : "3ad49d345a0e41bb10c9", "CLIENT_SECRET" : "3b6cde231132fcbfce00fcfe075ed6de8b80d2b8" }

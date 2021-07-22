@@ -36,6 +36,10 @@
 		C9965853269DD054006ECA93 /* MsgItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9965852269DD054006ECA93 /* MsgItemView.m */; };
 		C9965857269F292A006ECA93 /* FindSearchLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9965856269F292A006ECA93 /* FindSearchLoader.m */; };
 		C996585B269F3293006ECA93 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C996585A269F3293006ECA93 /* SearchView.m */; };
+		C996586026A46199006ECA93 /* DynamicItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C996585F26A46199006ECA93 /* DynamicItemView.m */; };
+		C996586426A461CD006ECA93 /* DynamicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C996586326A461CD006ECA93 /* DynamicModel.m */; };
+		C996586726A461DB006ECA93 /* DynamicDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C996586626A461DB006ECA93 /* DynamicDataLoader.m */; };
+		C996586A26A46AC4006ECA93 /* ActorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C996586926A46AC4006ECA93 /* ActorModel.m */; };
 		C9981C64267F317D00A0AF41 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C63267F317D00A0AF41 /* ViewUtils.m */; };
 		C9981C692680E42F00A0AF41 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C682680E42F00A0AF41 /* UserInfoView.m */; };
 		C9981C6D268A08EA00A0AF41 /* MyUILable.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C6C268A08EA00A0AF41 /* MyUILable.m */; };
@@ -50,7 +54,6 @@
 		C9981C9C26902C4B00A0AF41 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C9B26902C4B00A0AF41 /* LeftViewController.m */; };
 		C9981CA02690709A00A0AF41 /* RepoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981C9F2690709A00A0AF41 /* RepoItemView.m */; };
 		C9981CA426919A7E00A0AF41 /* WebDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9981CA326919A7E00A0AF41 /* WebDetailView.m */; };
-		C9981CA62691A17800A0AF41 /* local_config.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9981CA52691A17800A0AF41 /* local_config.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +111,14 @@
 		C9965856269F292A006ECA93 /* FindSearchLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSearchLoader.m; sourceTree = "<group>"; };
 		C9965859269F3293006ECA93 /* SearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
 		C996585A269F3293006ECA93 /* SearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		C996585E26A46199006ECA93 /* DynamicItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicItemView.h; sourceTree = "<group>"; };
+		C996585F26A46199006ECA93 /* DynamicItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicItemView.m; sourceTree = "<group>"; };
+		C996586226A461CD006ECA93 /* DynamicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicModel.h; sourceTree = "<group>"; };
+		C996586326A461CD006ECA93 /* DynamicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicModel.m; sourceTree = "<group>"; };
+		C996586526A461DB006ECA93 /* DynamicDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicDataLoader.h; sourceTree = "<group>"; };
+		C996586626A461DB006ECA93 /* DynamicDataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicDataLoader.m; sourceTree = "<group>"; };
+		C996586826A46AC4006ECA93 /* ActorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorModel.h; sourceTree = "<group>"; };
+		C996586926A46AC4006ECA93 /* ActorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActorModel.m; sourceTree = "<group>"; };
 		C9981C62267F317D00A0AF41 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		C9981C63267F317D00A0AF41 /* ViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		C9981C672680E42F00A0AF41 /* UserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
@@ -136,7 +147,6 @@
 		C9981C9F2690709A00A0AF41 /* RepoItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoItemView.m; sourceTree = "<group>"; };
 		C9981CA226919A7E00A0AF41 /* WebDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebDetailView.h; sourceTree = "<group>"; };
 		C9981CA326919A7E00A0AF41 /* WebDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebDetailView.m; sourceTree = "<group>"; };
-		C9981CA52691A17800A0AF41 /* local_config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local_config.txt; sourceTree = "<group>"; };
 		E2ABAF84A6F99DC6442202A9 /* libPods-NgGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63BB8877B59A04F9942F637 /* Pods-NgGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgGithub.debug.xcconfig"; path = "Target Support Files/Pods-NgGithub/Pods-NgGithub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,7 +267,6 @@
 		C9060CC72662895800812DD3 /* NgGithub */ = {
 			isa = PBXGroup;
 			children = (
-				C9981CA52691A17800A0AF41 /* local_config.txt */,
 				7DE0E739268D9B7500132261 /* test */,
 				7D4D4CE226775C6C0072BA8C /* net */,
 				C94DE38B26759F400037B34C /* utils */,
@@ -415,9 +424,41 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		C996585C26A45EB5006ECA93 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C996586126A461A3006ECA93 /* bean */,
+				C996586526A461DB006ECA93 /* DynamicDataLoader.h */,
+				C996586626A461DB006ECA93 /* DynamicDataLoader.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C996585D26A45EBA006ECA93 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C996585E26A46199006ECA93 /* DynamicItemView.h */,
+				C996585F26A46199006ECA93 /* DynamicItemView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C996586126A461A3006ECA93 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				C996586226A461CD006ECA93 /* DynamicModel.h */,
+				C996586326A461CD006ECA93 /* DynamicModel.m */,
+				C996586826A46AC4006ECA93 /* ActorModel.h */,
+				C996586926A46AC4006ECA93 /* ActorModel.m */,
+			);
+			path = bean;
+			sourceTree = "<group>";
+		};
 		C9981C652680E40300A0AF41 /* center */ = {
 			isa = PBXGroup;
 			children = (
+				C996585D26A45EBA006ECA93 /* view */,
+				C996585C26A45EB5006ECA93 /* data */,
 				C94DE36F26746A4E0037B34C /* UserDynamicController.h */,
 				C94DE37026746A4E0037B34C /* UserDynamicController.m */,
 			);
@@ -566,7 +607,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9060CE526629B0200812DD3 /* icon.bundle in Resources */,
-				C9981CA62691A17800A0AF41 /* local_config.txt in Resources */,
 				C9060CD82662895900812DD3 /* LaunchScreen.storyboard in Resources */,
 				C9060CD52662895900812DD3 /* Assets.xcassets in Resources */,
 				C9060CD32662895800812DD3 /* Main.storyboard in Resources */,
@@ -618,7 +658,9 @@
 				C9981CA02690709A00A0AF41 /* RepoItemView.m in Sources */,
 				C9981C9C26902C4B00A0AF41 /* LeftViewController.m in Sources */,
 				C94DE38E26759F4E0037B34C /* TextUtils.m in Sources */,
+				C996586026A46199006ECA93 /* DynamicItemView.m in Sources */,
 				7DE0E73C268D9B8E00132261 /* TestViewController.m in Sources */,
+				C996586426A461CD006ECA93 /* DynamicModel.m in Sources */,
 				C9981C93269027A300A0AF41 /* LitterLRightViewController.m in Sources */,
 				C9060CCA2662895800812DD3 /* AppDelegate.m in Sources */,
 				C94DE37526746F400037B34C /* DemoConfigData.m in Sources */,
@@ -638,8 +680,10 @@
 				C9965857269F292A006ECA93 /* FindSearchLoader.m in Sources */,
 				7DE0E744268D9FBB00132261 /* TestListViewController.m in Sources */,
 				C9981C92269027A300A0AF41 /* LitterLShowViewController.m in Sources */,
+				C996586A26A46AC4006ECA93 /* ActorModel.m in Sources */,
 				C9981C90269027A300A0AF41 /* TestDrawerViewController.m in Sources */,
 				7D4D4CCD26761F5B0072BA8C /* SplashView.m in Sources */,
+				C996586726A461DB006ECA93 /* DynamicDataLoader.m in Sources */,
 				C9965853269DD054006ECA93 /* MsgItemView.m in Sources */,
 				7D4D4CD026761F820072BA8C /* MainController.m in Sources */,
 				C9060CCD2662895800812DD3 /* SceneDelegate.m in Sources */,
