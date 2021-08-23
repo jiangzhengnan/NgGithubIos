@@ -10,6 +10,12 @@
 UI Design<br />
 <a href="https://mobbin.design/apps/github">https://mobbin.design/apps/github</a><br />
 
+### 配置事项
+项目clone以后，需要在根目录新增配置文件：
+local_config.txt
+{ "CLIENT_ID" : "你申请的client_id", "CLIENT_SECRET" : "你申请的client_scret" }
+
+
 ### 界面展示
 <table>
 	<tr>
