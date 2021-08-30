@@ -1,8 +1,9 @@
 # NgGithubIos
-English | [简体中文](./README.zh-CN.md) |
-🍎 基于iOS端，使用Objective-C编写的Github个人版本<br />
-基于MVC模式进行开发
-第三方库:
+English | [简体中文](./README.zh-CN.md) |<br />
+🍎 Github personal version based on Objective-C for iOS<br />
+Development based on MVC pattern<br />
+
+Api reference:<br />
 * AFNetworking
 * SDWebImage
 * MMDrawerController
@@ -11,20 +12,20 @@ English | [简体中文](./README.zh-CN.md) |
 UI Design<br />
 <a href="https://mobbin.design/apps/github">https://mobbin.design/apps/github</a><br />
 
-### 配置事项
-项目clone以后，需要在根目录新增配置文件：
+### You need to set up
+Add a file to the project root directory:<br />
 local_config.txt
 { "CLIENT_ID" : "你申请的client_id", "CLIENT_SECRET" : "你申请的client_scret" }
 
 
-### 界面展示
+### Preview
 <table>
 	<tr>
-		<th>个人信息</th>
-		<th>登录</th>
-		<th>仓库</th>
-		<th>动态</th>
-		<th>发现</th>
+		<th>UserInfo</th>
+		<th>Login</th>
+		<th>Project</th>
+		<th>Notice</th>
+		<th>Find</th>
 	</tr>
 	<tr>
 		  <td>
