@@ -1,5 +1,8 @@
 # NgGithubIos
 English | [简体中文](./README.zh-CN.md) |<br />
+![OC](https://img.shields.io/badge/language-OC-red.svg)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=jiangzhengnan.nggithubios.read.me)
+<br/>
 🍎 Github personal version based on Objective-C for iOS<br />
 Development based on MVC pattern<br />
 
